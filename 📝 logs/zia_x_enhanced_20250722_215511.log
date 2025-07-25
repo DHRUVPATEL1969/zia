@@ -1,0 +1,44 @@
+2025-07-22 21:55:11,322 - __main__ - INFO - [_setup_enhanced_logging:112] - Enhanced logging initialized - Log file: 📝 logs\zia_x_enhanced_20250722_215511.log
+2025-07-22 21:55:11,324 - root - INFO - [__init__:78] - ZIA-X Enhanced Central Nervous System starting up...
+2025-07-22 21:55:11,324 - root - INFO - [_initialize_enhanced_brains:150] - Initializing enhanced brain modules...
+2025-07-22 21:55:11,325 - brains.memory_brain - INFO - [_load_or_generate_key:116] - Encryption key loaded successfully from existing file
+2025-07-22 21:55:11,325 - brains.memory_brain - INFO - [__init__:71] - ZIA Memory Brain initialized successfully
+2025-07-22 21:55:11,346 - root - INFO - [_load_memory_brain:165] - 💾 Enhanced Memory Brain (Black Box) module loaded.
+2025-07-22 21:55:11,346 - ZIA.SecurityBrain - INFO - [__init__:50] - Security Brain initialized - Guardian mode active
+2025-07-22 21:55:11,346 - ZIA.SecurityBrain - INFO - [__init__:51] - Loaded 4 trusted sites
+2025-07-22 21:55:11,346 - ZIA.SecurityBrain - INFO - [__init__:52] - Loaded 0 blocked sites
+2025-07-22 21:55:11,347 - ZIA.SecurityBrain - INFO - [__init__:53] - Loaded 0 one-time sessions
+2025-07-22 21:55:11,347 - root - INFO - [_load_security_brain:178] - 🛡️ Security Brain module loaded.
+2025-07-22 21:55:11,347 - brains.decision_brain - INFO - [__init__:82] - Enhanced DecisionBrain V2.0 initialized successfully
+2025-07-22 21:55:11,347 - root - INFO - [_load_decision_brain:189] - 🧠 Enhanced Decision Brain V2.0 (Mastermind) module loaded.
+2025-07-22 21:55:11,348 - root - ERROR - [_load_decision_brain:194] - Failed to load Enhanced Decision Brain: 'DecisionBrain' object has no attribute 'get_capabilities'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 191, in _load_decision_brain
+    capabilities = self.decision_brain.get_capabilities()
+AttributeError: 'DecisionBrain' object has no attribute 'get_capabilities'
+2025-07-22 21:55:11,349 - brains.automation_brain - INFO - [_setup_memory_integration:191] - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 21:55:11,350 - brains.automation_brain - INFO - [__init__:85] - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 21:55:11,350 - root - INFO - [_load_automation_brain:202] - 🤖 Enhanced Automation Brain V1.5 module loaded.
+2025-07-22 21:55:11,350 - root - ERROR - [_load_automation_brain:207] - Failed to load Enhanced Automation Brain: 'memory_status'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 205, in _load_automation_brain
+    self.memory_brain.log_action("CNS", "AUTOMATION_BRAIN_LOADED", { "version": "1.5", "memory_status": stats["memory_status"], "features": ["enhanced_web_search", "advanced_automation", "performance_tracking"] })
+KeyError: 'memory_status'
+2025-07-22 21:55:11,350 - brains.response_brain - INFO - [__init__:88] - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 21:55:11,350 - root - INFO - [_load_response_brain:215] - 💬 Response Brain module loaded.
+2025-07-22 21:55:11,350 - root - INFO - [_initialize_enhanced_brains:158] - All enhanced brain modules initialized successfully.
+2025-07-22 21:55:11,350 - __main__ - INFO - [_setup_brain_communication:224] - Brain communication established: MemoryBrain, SecurityBrain, ResponseBrain
+2025-07-22 21:55:11,351 - root - INFO - [__init__:92] - ZIA-X Enhanced CNS initialization complete.
+2025-07-22 21:55:17,897 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'hey'
+2025-07-22 21:55:17,897 - brains.response_brain - INFO - [process_command:107] - Found exact conversational match for: 'hey'
+2025-07-22 21:55:17,898 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via ResponseBrain
+2025-07-22 21:55:25,230 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'who is modi'
+2025-07-22 21:55:25,231 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via CNS_Fallback
+2025-07-22 21:55:41,416 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'time'
+2025-07-22 21:55:41,417 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via CNS_Fallback
+2025-07-22 21:55:48,834 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'date'
+2025-07-22 21:55:48,835 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via CNS_Fallback
+2025-07-22 21:56:36,010 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'show me video about phone'
+2025-07-22 21:56:36,011 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via CNS_Fallback
+2025-07-22 21:59:11,325 - __main__ - INFO - [handle_command:237] - Enhanced CNS received text command: 'how to learn NLP'
+2025-07-22 21:59:11,328 - __main__ - INFO - [handle_command:265] - Enhanced CNS processed command in 0.00s via CNS_Fallback

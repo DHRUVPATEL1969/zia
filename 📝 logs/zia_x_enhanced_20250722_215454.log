@@ -1,0 +1,31 @@
+2025-07-22 21:54:54,661 - __main__ - INFO - [_setup_enhanced_logging:112] - Enhanced logging initialized - Log file: 📝 logs\zia_x_enhanced_20250722_215454.log
+2025-07-22 21:54:54,661 - root - INFO - [__init__:78] - ZIA-X Enhanced Central Nervous System starting up...
+2025-07-22 21:54:54,662 - root - INFO - [_initialize_enhanced_brains:150] - Initializing enhanced brain modules...
+2025-07-22 21:54:54,662 - brains.memory_brain - INFO - [_load_or_generate_key:116] - Encryption key loaded successfully from existing file
+2025-07-22 21:54:54,663 - brains.memory_brain - INFO - [__init__:71] - ZIA Memory Brain initialized successfully
+2025-07-22 21:54:54,666 - root - INFO - [_load_memory_brain:165] - 💾 Enhanced Memory Brain (Black Box) module loaded.
+2025-07-22 21:54:54,666 - ZIA.SecurityBrain - INFO - [__init__:50] - Security Brain initialized - Guardian mode active
+2025-07-22 21:54:54,666 - ZIA.SecurityBrain - INFO - [__init__:51] - Loaded 4 trusted sites
+2025-07-22 21:54:54,667 - ZIA.SecurityBrain - INFO - [__init__:52] - Loaded 0 blocked sites
+2025-07-22 21:54:54,667 - ZIA.SecurityBrain - INFO - [__init__:53] - Loaded 0 one-time sessions
+2025-07-22 21:54:54,667 - root - INFO - [_load_security_brain:178] - 🛡️ Security Brain module loaded.
+2025-07-22 21:54:54,667 - brains.decision_brain - INFO - [__init__:82] - Enhanced DecisionBrain V2.0 initialized successfully
+2025-07-22 21:54:54,667 - root - INFO - [_load_decision_brain:189] - 🧠 Enhanced Decision Brain V2.0 (Mastermind) module loaded.
+2025-07-22 21:54:54,667 - root - ERROR - [_load_decision_brain:194] - Failed to load Enhanced Decision Brain: 'DecisionBrain' object has no attribute 'get_capabilities'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 191, in _load_decision_brain
+    capabilities = self.decision_brain.get_capabilities()
+AttributeError: 'DecisionBrain' object has no attribute 'get_capabilities'
+2025-07-22 21:54:54,670 - brains.automation_brain - INFO - [_setup_memory_integration:191] - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 21:54:54,670 - brains.automation_brain - INFO - [__init__:85] - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 21:54:54,671 - root - INFO - [_load_automation_brain:202] - 🤖 Enhanced Automation Brain V1.5 module loaded.
+2025-07-22 21:54:54,671 - root - ERROR - [_load_automation_brain:207] - Failed to load Enhanced Automation Brain: 'AutomationBrain' object has no attribute 'get_performance_stats'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 204, in _load_automation_brain
+    stats = self.automation_brain.get_performance_stats()
+AttributeError: 'AutomationBrain' object has no attribute 'get_performance_stats'
+2025-07-22 21:54:54,671 - brains.response_brain - INFO - [__init__:88] - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 21:54:54,671 - root - INFO - [_load_response_brain:215] - 💬 Response Brain module loaded.
+2025-07-22 21:54:54,672 - root - INFO - [_initialize_enhanced_brains:158] - All enhanced brain modules initialized successfully.
+2025-07-22 21:54:54,672 - __main__ - INFO - [_setup_brain_communication:224] - Brain communication established: MemoryBrain, SecurityBrain, ResponseBrain
+2025-07-22 21:54:54,672 - root - INFO - [__init__:92] - ZIA-X Enhanced CNS initialization complete.

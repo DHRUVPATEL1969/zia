@@ -1,0 +1,718 @@
+2025-07-17 19:06:01,387 - root - INFO - zia-X Central Nervous System starting up...
+2025-07-17 19:06:01,415 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 19:06:01,415 - root - INFO - Initializing brain modules...
+2025-07-17 19:06:01,416 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 19:06:04,513 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['zia', 'computer', 'hello zia']
+2025-07-17 19:06:04,514 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 19:06:04,514 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 19:06:04,514 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 19:06:04,515 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 19:06:04,517 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 19:06:04,517 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 19:06:04,517 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 19:06:04,518 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 19:06:04,518 - root - INFO - All brain modules initialized successfully.
+2025-07-17 19:06:04,518 - root - INFO - zia-X CNS initialization complete.
+2025-07-17 19:06:04,518 - root - INFO - 🚀 zia-X CNS main loop starting...
+2025-07-17 19:06:04,693 - brains.listening_brain - INFO - 🎤 zia is now listening...
+2025-07-17 19:06:07,641 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-17 19:06:15,181 - brains.listening_brain - INFO - 🔊 Wake word detected: 'computer'
+2025-07-17 19:06:15,182 - brains.listening_brain - INFO - Configuring for COMMAND mode.
+2025-07-17 19:06:20,222 - brains.listening_brain - INFO - ⏱️ Command listening timeout.
+2025-07-17 19:06:20,222 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['zia', 'computer', 'hello zia']
+2025-07-17 19:06:30,689 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-17 19:10:15,635 - root - INFO - zia-X Central Nervous System starting up...
+2025-07-17 19:10:15,637 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 19:10:15,637 - root - INFO - Initializing brain modules...
+2025-07-17 19:10:15,637 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 19:10:19,765 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['zia', 'computer', 'hello zia']
+2025-07-17 19:10:19,765 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 19:10:19,766 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 19:10:19,766 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 19:10:19,766 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 19:10:19,812 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 19:10:19,812 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 19:10:19,812 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 19:10:19,813 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 19:10:19,813 - root - INFO - All brain modules initialized successfully.
+2025-07-17 19:10:19,813 - root - INFO - zia-X CNS initialization complete.
+2025-07-17 19:10:19,813 - root - INFO - 🚀 zia-X CNS main loop starting...
+2025-07-17 19:10:20,031 - brains.listening_brain - INFO - 🎤 ZIA is now listening...
+2025-07-17 19:10:34,321 - brains.listening_brain - INFO - Wake word detected: 'computer'
+2025-07-17 19:10:34,322 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 19:10:39,372 - brains.listening_brain - INFO - ⏱️ Command listening timeout.
+2025-07-17 19:10:39,608 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['zia', 'computer', 'hello zia']
+2025-07-18 18:43:18,835 - root - INFO - zia-X Central Nervous System starting up...
+2025-07-18 18:43:18,835 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 18:43:18,836 - root - INFO - Initializing brain modules...
+2025-07-18 18:43:18,836 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-18 18:43:23,382 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['zia', 'computer', 'hello zia']
+2025-07-18 18:43:23,388 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-18 18:43:23,388 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-18 18:43:23,394 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-18 18:43:23,395 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-18 18:43:23,399 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 18:43:23,399 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-18 18:43:23,399 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-18 18:43:23,399 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-18 18:43:23,399 - root - INFO - All brain modules initialized successfully.
+2025-07-18 18:43:23,400 - root - INFO - zia-X CNS initialization complete.
+2025-07-18 18:43:23,400 - root - INFO - 🚀 zia-X CNS main loop starting...
+2025-07-18 18:43:23,741 - brains.listening_brain - INFO - 🎤 ZIA is now listening...
+2025-07-18 18:43:30,009 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-18 18:43:36,480 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-18 18:43:37,598 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-18 18:43:43,123 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-18 21:39:03,103 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:39:03,112 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:39:03,112 - root - INFO - Initializing brain modules...
+2025-07-18 21:39:03,112 - brains.response_brain - INFO - ResponseBrain initialized (text-only mode)
+2025-07-18 21:39:03,112 - brains.response_brain - INFO - Loaded 31 conversational responses
+2025-07-18 21:39:03,113 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:39:03,113 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:39:03,113 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:39:03,113 - root - INFO - All available brain modules initialized.
+2025-07-18 21:39:03,113 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:39:03,113 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:39:14,803 - __main__ - INFO - CNS received text command: 'what is your name'
+2025-07-18 21:39:14,803 - brains.response_brain - INFO - Processing conversational command: what is your name
+2025-07-18 21:39:14,804 - brains.response_brain - INFO - Found conversational match: 'what is your name' -> 'My name is ZIA, Boss.'
+2025-07-18 21:39:14,804 - __main__ - INFO - CNS final response: 'My name is ZIA, Boss.'
+2025-07-18 21:39:34,354 - __main__ - INFO - CNS received text command: 'who are you'
+2025-07-18 21:39:34,354 - brains.response_brain - INFO - Processing conversational command: who are you
+2025-07-18 21:39:34,354 - brains.response_brain - INFO - Found conversational match: 'who are you' -> 'I am ZIA, your personal AI assistant. I'm here to help you with your work and make things a little more interesting.'
+2025-07-18 21:39:34,355 - __main__ - INFO - CNS final response: 'I am ZIA, your personal AI assistant. I'm here to help you with your work and make things a little more interesting.'
+2025-07-18 21:42:20,687 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:42:20,688 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:42:20,688 - root - INFO - Initializing brain modules...
+2025-07-18 21:42:20,688 - brains.response_brain - INFO - ResponseBrain initialized (text-only mode)
+2025-07-18 21:42:20,688 - brains.response_brain - INFO - Loaded 31 conversational responses
+2025-07-18 21:42:20,688 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:42:20,688 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:42:20,688 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:42:20,688 - root - INFO - All available brain modules initialized.
+2025-07-18 21:42:20,689 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:42:20,689 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:42:25,363 - __main__ - INFO - CNS received text command: 'hey'
+2025-07-18 21:42:25,364 - brains.response_brain - INFO - Processing conversational command: hey
+2025-07-18 21:42:25,364 - brains.automation_brain - INFO - Processing command: 'hey'
+2025-07-18 21:42:25,364 - brains.automation_brain - WARNING - Unrecognized command: 'hey'
+2025-07-18 21:42:25,364 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-18 21:42:59,895 - __main__ - INFO - CNS received text command: 'what is your name'
+2025-07-18 21:42:59,895 - brains.response_brain - INFO - Processing conversational command: what is your name
+2025-07-18 21:42:59,895 - brains.response_brain - INFO - Found conversational match: 'what is your name' -> 'My name is ZIA, Boss.'
+2025-07-18 21:42:59,896 - __main__ - INFO - CNS final response: 'My name is ZIA, Boss.'
+2025-07-18 21:45:00,295 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:45:00,296 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:45:00,296 - root - INFO - Initializing brain modules...
+2025-07-18 21:45:00,296 - brains.response_brain - INFO - ResponseBrain V.0.2 initialized with 19 conversational responses.
+2025-07-18 21:45:00,296 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:45:00,296 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:45:00,296 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:45:00,296 - root - INFO - All available brain modules initialized.
+2025-07-18 21:45:00,296 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:45:00,296 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:45:04,550 - __main__ - INFO - CNS received text command: 'hey'
+2025-07-18 21:45:04,550 - brains.response_brain - INFO - Found exact conversational match for: 'hey'
+2025-07-18 21:45:04,550 - __main__ - INFO - CNS final response: 'Hey there, Boss! How can I help?'
+2025-07-18 21:45:32,876 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:45:32,876 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:45:32,876 - root - INFO - Initializing brain modules...
+2025-07-18 21:45:32,877 - brains.response_brain - INFO - ResponseBrain V.0.2 initialized with 19 conversational responses.
+2025-07-18 21:45:32,877 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:45:32,877 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:45:32,877 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:45:32,877 - root - INFO - All available brain modules initialized.
+2025-07-18 21:45:32,877 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:45:32,877 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:45:38,524 - __main__ - INFO - CNS received text command: 'hello'
+2025-07-18 21:45:38,526 - brains.response_brain - INFO - Found exact conversational match for: 'hello'
+2025-07-18 21:45:38,526 - __main__ - INFO - CNS final response: 'Hello there, Boss! What can I do for you today?'
+2025-07-18 21:45:44,491 - __main__ - INFO - CNS received text command: 'bye'
+2025-07-18 21:45:44,491 - brains.response_brain - INFO - Found exact conversational match for: 'bye'
+2025-07-18 21:45:44,491 - __main__ - INFO - CNS final response: 'See you later, Boss!'
+2025-07-18 21:45:56,780 - __main__ - INFO - CNS received text command: 'see you'
+2025-07-18 21:45:56,781 - brains.automation_brain - INFO - Processing command: 'see you'
+2025-07-18 21:45:56,781 - brains.automation_brain - WARNING - Unrecognized command: 'see you'
+2025-07-18 21:45:56,781 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-18 21:48:07,913 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:48:07,913 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:48:07,913 - root - INFO - Initializing brain modules...
+2025-07-18 21:48:07,913 - brains.response_brain - INFO - ResponseBrain V.0.2 initialized with 20 conversational responses.
+2025-07-18 21:48:07,913 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:48:07,914 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:48:07,914 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:48:07,914 - root - INFO - All available brain modules initialized.
+2025-07-18 21:48:07,914 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:48:07,914 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:48:12,822 - __main__ - INFO - CNS received text command: 'see you'
+2025-07-18 21:48:12,822 - brains.response_brain - INFO - Found exact conversational match for: 'see you'
+2025-07-18 21:48:12,822 - __main__ - INFO - CNS final response: 'See you later, Boss!'
+2025-07-18 21:48:22,013 - __main__ - INFO - CNS received text command: 'hiw are you'
+2025-07-18 21:48:22,014 - brains.response_brain - INFO - Found partial conversational match: 'hi' in 'hiw are you'
+2025-07-18 21:48:22,014 - __main__ - INFO - CNS final response: 'Hi Boss! Ready to get some work done?'
+2025-07-18 21:48:31,110 - __main__ - INFO - CNS received text command: 'how are you'
+2025-07-18 21:48:31,110 - brains.response_brain - INFO - Found exact conversational match for: 'how are you'
+2025-07-18 21:48:31,111 - __main__ - INFO - CNS final response: 'I am fully operational and ready for your command, Boss.'
+2025-07-18 21:50:59,529 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:50:59,530 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:50:59,530 - root - INFO - Initializing brain modules...
+2025-07-18 21:50:59,530 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-18 21:50:59,530 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:50:59,531 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:50:59,531 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:50:59,531 - root - INFO - All available brain modules initialized.
+2025-07-18 21:50:59,531 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:50:59,531 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:51:07,933 - __main__ - INFO - CNS received text command: 'what you can do'
+2025-07-18 21:51:07,933 - brains.automation_brain - INFO - Processing command: 'what you can do'
+2025-07-18 21:51:07,934 - brains.automation_brain - WARNING - Unrecognized command: 'what you can do'
+2025-07-18 21:51:07,934 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-18 21:55:54,857 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-18 21:55:54,858 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-18 21:55:54,858 - root - INFO - Initializing brain modules...
+2025-07-18 21:55:54,858 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-18 21:55:54,858 - root - INFO - 💬 Response Brain module loaded.
+2025-07-18 21:55:54,858 - brains.automation_brain - INFO - AutomationBrain V.0.3 initialized with Smart Focus capabilities.
+2025-07-18 21:55:54,858 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-18 21:55:54,859 - root - INFO - All available brain modules initialized.
+2025-07-18 21:55:54,859 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-18 21:55:54,859 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-18 21:56:05,016 - __main__ - INFO - CNS received text command: 'what you can do'
+2025-07-18 21:56:05,016 - brains.automation_brain - INFO - Processing command: 'what you can do'
+2025-07-18 21:56:05,016 - brains.automation_brain - WARNING - Unrecognized command: 'what you can do'
+2025-07-18 21:56:05,017 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-20 23:16:27,879 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-20 23:16:27,882 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-20 23:16:27,882 - root - INFO - Initializing brain modules...
+2025-07-20 23:16:27,884 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-20 23:16:27,884 - root - INFO - 💬 Response Brain module loaded.
+2025-07-20 23:16:27,884 - root - CRITICAL - A fatal error occurred in main: 'VitaCNS' object has no attribute '_load_security_brain'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 194, in main
+    cns = VitaCNS()
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 52, in __init__
+    self._initialize_brains()
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 85, in _initialize_brains
+    self._load_security_brain() # Add this line
+AttributeError: 'VitaCNS' object has no attribute '_load_security_brain'
+2025-07-20 23:20:53,461 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-20 23:20:53,462 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-20 23:20:53,462 - root - INFO - Initializing brain modules...
+2025-07-20 23:20:53,462 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-20 23:20:53,462 - root - INFO - 💬 Response Brain module loaded.
+2025-07-20 23:20:53,462 - root - CRITICAL - A fatal error occurred in main: 'VitaCNS' object has no attribute '_load_security_brain'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 194, in main
+    cns = VitaCNS()
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 52, in __init__
+    self._initialize_brains()
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 85, in _initialize_brains
+    self._load_security_brain() # Add this line
+AttributeError: 'VitaCNS' object has no attribute '_load_security_brain'
+2025-07-20 23:36:51,641 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-20 23:36:51,642 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-20 23:36:51,642 - root - INFO - Initializing brain modules...
+2025-07-20 23:36:51,642 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-20 23:36:51,643 - root - INFO - 💬 Response Brain module loaded.
+2025-07-20 23:36:51,643 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-20 23:36:51,643 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-20 23:36:51,643 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-20 23:36:51,643 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-20 23:36:51,644 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-20 23:36:51,646 - brains.automation_brain - INFO - AutomationBrain V.1.0 (Jarvis Mode) initialized.
+2025-07-20 23:36:51,646 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-20 23:36:51,646 - root - INFO - All available brain modules initialized.
+2025-07-20 23:36:51,647 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-20 23:36:51,647 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-20 23:37:01,303 - __main__ - INFO - CNS received text command: 'open chrome'
+2025-07-20 23:37:01,304 - brains.automation_brain - INFO - Processing command: 'open chrome'
+2025-07-20 23:37:01,304 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-20 23:37:09,369 - __main__ - INFO - CNS received text command: 'open youtube'
+2025-07-20 23:37:09,369 - brains.automation_brain - INFO - Processing command: 'open youtube'
+2025-07-20 23:37:09,567 - __main__ - INFO - CNS final response: 'Opening YouTube now, Boss.'
+2025-07-21 00:02:56,772 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-21 00:02:56,772 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-21 00:02:56,773 - root - INFO - Initializing brain modules...
+2025-07-21 00:02:56,773 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-21 00:02:56,773 - root - INFO - 💬 Response Brain module loaded.
+2025-07-21 00:02:56,773 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-21 00:02:56,773 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-21 00:02:56,774 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-21 00:02:56,774 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-21 00:02:56,774 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-21 00:02:56,774 - brains.automation_brain - INFO - AutomationBrain V.1.1 (Secure Web Access) initialized.
+2025-07-21 00:02:56,774 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-21 00:02:56,775 - root - INFO - All available brain modules initialized.
+2025-07-21 00:02:56,775 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-21 00:02:56,775 - root - INFO - 🚀 ZIA-X CNS main loop starting...
+2025-07-21 00:19:13,700 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-21 00:19:13,701 - root - INFO - Initializing brain modules...
+2025-07-21 00:19:13,701 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-21 00:19:13,701 - root - INFO - 💬 Response Brain module loaded.
+2025-07-21 00:19:13,701 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-21 00:19:13,701 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-21 00:19:13,701 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-21 00:19:13,702 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-21 00:19:13,702 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-21 00:19:13,702 - brains.automation_brain - INFO - AutomationBrain V.1.1 (Secure Web Access) initialized.
+2025-07-21 00:19:13,702 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-21 00:19:13,703 - root - INFO - All available brain modules initialized.
+2025-07-21 00:19:13,703 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-21 00:36:30,491 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-21 00:36:30,492 - root - INFO - Initializing brain modules...
+2025-07-21 00:36:30,492 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-21 00:36:30,492 - root - INFO - 💬 Response Brain module loaded.
+2025-07-21 00:36:30,492 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-21 00:36:30,492 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-21 00:36:30,492 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-21 00:36:30,493 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-21 00:36:30,493 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-21 00:36:30,493 - brains.automation_brain - INFO - AutomationBrain V.1.2 (Intent Parser) initialized.
+2025-07-21 00:36:30,493 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-21 00:36:30,493 - root - INFO - All available brain modules initialized.
+2025-07-21 00:36:30,493 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-21 00:36:40,251 - __main__ - INFO - CNS received text command: 'open googel'
+2025-07-21 00:36:40,252 - brains.automation_brain - INFO - Processing command: 'open googel'
+2025-07-21 00:36:40,252 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 00:36:52,758 - __main__ - INFO - CNS received text command: 'open youtube'
+2025-07-21 00:36:52,759 - brains.automation_brain - INFO - Processing command: 'open youtube'
+2025-07-21 00:36:52,759 - brains.automation_brain - INFO - Requesting web access for: youtube.com
+2025-07-21 00:36:52,760 - ZIA.SecurityBrain - INFO - Security check requested for: youtube.com
+2025-07-21 00:36:52,760 - ZIA.SecurityBrain - INFO - Access ALLOWED - youtube.com is on trusted list
+2025-07-21 00:36:52,760 - brains.automation_brain - INFO - SecurityBrain response: ALLOWED
+2025-07-21 00:36:52,920 - __main__ - INFO - CNS final response: 'Access granted. Opening 'youtube.com' now, Boss.'
+2025-07-21 00:37:10,554 - __main__ - INFO - CNS received text command: 'show me funny video'
+2025-07-21 00:37:10,555 - brains.automation_brain - INFO - Processing command: 'show me funny video'
+2025-07-21 00:37:10,555 - brains.automation_brain - ERROR - Error executing command 'show me funny video': 'AutomationBrain' object has no attribute '_search_youtube'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 63, in execute_command
+    return self._search_youtube(query if query else "trending videos")
+AttributeError: 'AutomationBrain' object has no attribute '_search_youtube'
+2025-07-21 00:37:10,558 - __main__ - INFO - CNS final response: 'Sorry Boss, I encountered an error while trying that.'
+2025-07-21 00:37:19,988 - __main__ - INFO - CNS received text command: 'retry'
+2025-07-21 00:37:19,988 - brains.automation_brain - INFO - Processing command: 'retry'
+2025-07-21 00:37:19,989 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:11:32,407 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-21 22:11:32,426 - root - INFO - Initializing brain modules...
+2025-07-21 22:11:32,426 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-21 22:11:32,426 - root - INFO - 💬 Response Brain module loaded.
+2025-07-21 22:11:32,426 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-21 22:11:32,426 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-21 22:11:32,426 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-21 22:11:32,426 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-21 22:11:32,426 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-21 22:11:32,432 - brains.automation_brain - INFO - AutomationBrain V.1.2 (Intent Parser) initialized.
+2025-07-21 22:11:32,432 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-21 22:11:32,432 - root - INFO - All available brain modules initialized.
+2025-07-21 22:11:32,432 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-21 22:11:46,261 - __main__ - INFO - CNS received text command: '"ZIA, what's your current status?"'
+2025-07-21 22:11:46,261 - brains.automation_brain - INFO - Processing command: '"zia, what's your current status?"'
+2025-07-21 22:11:46,263 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:12:02,557 - __main__ - INFO - CNS received text command: '"Show me your system diagnostics"'
+2025-07-21 22:12:02,557 - brains.automation_brain - INFO - Processing command: '"show me your system diagnostics"'
+2025-07-21 22:12:02,557 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:12:10,312 - __main__ - INFO - CNS received text command: 'Show me your system diagnostics'
+2025-07-21 22:12:10,312 - brains.automation_brain - INFO - Processing command: 'show me your system diagnostics'
+2025-07-21 22:12:10,312 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:12:22,460 - __main__ - INFO - CNS received text command: 'Are all your brain modules online?'
+2025-07-21 22:12:22,462 - brains.automation_brain - INFO - Processing command: 'are all your brain modules online?'
+2025-07-21 22:12:22,462 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:12:39,921 - __main__ - INFO - CNS received text command: 'ZIA, show me your recent memory logs'
+2025-07-21 22:12:39,922 - brains.automation_brain - INFO - Processing command: 'zia, show me your recent memory logs'
+2025-07-21 22:12:39,922 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:13:00,218 - __main__ - INFO - CNS received text command: 'What actions have you recorded today?'
+2025-07-21 22:13:00,218 - brains.automation_brain - INFO - Processing command: 'what actions have you recorded today?'
+2025-07-21 22:13:00,219 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:13:11,919 - __main__ - INFO - CNS received text command: 'Clear your memory log'
+2025-07-21 22:13:11,919 - brains.automation_brain - INFO - Processing command: 'clear your memory log'
+2025-07-21 22:13:11,919 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:13:29,391 - __main__ - INFO - CNS received text command: 'How many entries are in your memory bank?'
+2025-07-21 22:13:29,391 - brains.automation_brain - INFO - Processing command: 'how many entries are in your memory bank?'
+2025-07-21 22:13:29,393 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:13:52,730 - __main__ - INFO - CNS received text command: 'I need to organize my desktop files'
+2025-07-21 22:13:52,731 - brains.automation_brain - INFO - Processing command: 'i need to organize my desktop files'
+2025-07-21 22:13:52,731 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-21 22:14:21,181 - __main__ - INFO - CNS received text command: 'ZIA, I need you to create a report file, then open it, and tell me what you did'
+2025-07-21 22:14:21,181 - brains.automation_brain - INFO - Processing command: 'zia, i need you to create a report file, then open it, and tell me what you did'
+2025-07-21 22:14:21,181 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-22 13:33:58,102 - __main__ - INFO - CNS received text command: '& C:/vita-x_v.0.1/VITA_X/venv/Scripts/python.exe c:/vita-x_v.0.1/VITA_X/vita_x.py'
+2025-07-22 13:33:58,115 - brains.automation_brain - INFO - Processing command: '& c:/vita-x_v.0.1/vita_x/venv/scripts/python.exe c:/vita-x_v.0.1/vita_x/vita_x.py'
+2025-07-22 13:33:58,115 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-22 13:34:05,200 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 13:34:05,202 - root - INFO - Initializing brain modules...
+2025-07-22 13:34:05,203 - brains.memory_brain - INFO - New encryption key generated and saved securely
+2025-07-22 13:34:05,203 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 13:34:05,207 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 13:34:05,207 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 13:34:05,207 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 13:34:05,207 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 13:34:05,207 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 13:34:05,208 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 13:34:05,208 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 13:34:05,208 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 13:34:05,208 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 13:34:05,208 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 13:34:05,209 - brains.automation_brain - INFO - AutomationBrain V.1.2 (Intent Parser) initialized.
+2025-07-22 13:34:05,209 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 13:34:05,209 - root - INFO - All available brain modules initialized.
+2025-07-22 13:34:05,209 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 13:34:12,368 - __main__ - INFO - CNS received text command: 'hey nova'
+2025-07-22 13:34:12,368 - brains.response_brain - INFO - Found partial conversational match: 'hey' in 'hey nova'
+2025-07-22 13:34:12,382 - __main__ - INFO - CNS final response: 'Hey there, Boss! How can I help?'
+2025-07-22 13:34:12,382 - __main__ - INFO - CNS final response: 'Hey there, Boss! How can I help?'
+2025-07-22 13:34:36,253 - __main__ - INFO - CNS received text command: 'show me funny video'
+2025-07-22 13:34:36,254 - brains.automation_brain - INFO - Processing command: 'show me funny video'
+2025-07-22 13:34:36,254 - brains.automation_brain - ERROR - Error executing command 'show me funny video': 'AutomationBrain' object has no attribute '_search_youtube'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 63, in execute_command
+    return self._search_youtube(query if query else "trending videos")
+AttributeError: 'AutomationBrain' object has no attribute '_search_youtube'
+2025-07-22 13:34:36,256 - __main__ - INFO - CNS final response: 'Sorry Boss, I encountered an error while trying that.'
+2025-07-22 13:34:36,256 - __main__ - INFO - CNS final response: 'Sorry Boss, I encountered an error while trying that.'
+2025-07-22 13:34:47,584 - __main__ - INFO - CNS received text command: 'open youtube'
+2025-07-22 13:34:47,584 - brains.automation_brain - INFO - Processing command: 'open youtube'
+2025-07-22 13:34:47,584 - brains.automation_brain - INFO - Requesting web access for: youtube.com
+2025-07-22 13:34:47,585 - ZIA.SecurityBrain - INFO - Security check requested for: youtube.com
+2025-07-22 13:34:47,585 - ZIA.SecurityBrain - INFO - Access ALLOWED - youtube.com is on trusted list
+2025-07-22 13:34:47,585 - brains.automation_brain - INFO - SecurityBrain response: ALLOWED
+2025-07-22 13:34:47,771 - __main__ - INFO - CNS final response: 'Access granted. Opening 'youtube.com' now, Boss.'
+2025-07-22 13:34:47,771 - __main__ - INFO - CNS final response: 'Access granted. Opening 'youtube.com' now, Boss.'
+2025-07-22 13:43:46,848 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 13:43:46,848 - root - INFO - Initializing brain modules...
+2025-07-22 13:43:46,858 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 13:43:46,858 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 13:43:46,863 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 13:43:46,863 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 13:43:46,863 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 13:43:46,863 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 13:43:46,863 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 13:43:46,863 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 13:43:46,863 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 13:43:46,863 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 13:43:46,864 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 13:43:46,864 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 13:43:46,865 - brains.automation_brain - INFO - AutomationBrain V.1.3 (Web Search Enhanced) initialized.
+2025-07-22 13:43:46,865 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 13:43:46,865 - root - INFO - All available brain modules initialized.
+2025-07-22 13:43:46,865 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 13:43:54,154 - __main__ - INFO - CNS received text command: 'who is obama'
+2025-07-22 13:43:54,155 - brains.automation_brain - INFO - Processing command: 'who is obama'
+2025-07-22 13:43:54,155 - brains.automation_brain - INFO - ZIA performing web search for: obama
+2025-07-22 13:43:54,156 - ZIA.SecurityBrain - INFO - Security check requested for: google.com
+2025-07-22 13:43:54,156 - ZIA.SecurityBrain - INFO - Access ALLOWED - google.com is on trusted list
+2025-07-22 13:43:54,275 - __main__ - INFO - CNS final response: 'Searching the web for 'obama' now, Boss.'
+2025-07-22 13:43:54,275 - __main__ - INFO - CNS final response: 'Searching the web for 'obama' now, Boss.'
+2025-07-22 13:44:38,316 - __main__ - INFO - CNS received text command: 'tell chat gpt hello from me'
+2025-07-22 13:44:38,316 - brains.response_brain - INFO - Found partial conversational match: 'hello' in 'tell chat gpt hello from me'
+2025-07-22 13:44:38,318 - __main__ - INFO - CNS final response: 'Hello there, Boss! What can I do for you today?'
+2025-07-22 13:44:38,318 - __main__ - INFO - CNS final response: 'Hello there, Boss! What can I do for you today?'
+2025-07-22 13:45:04,929 - __main__ - INFO - CNS received text command: 'tell chat gpt kem chho'
+2025-07-22 13:45:04,930 - brains.automation_brain - INFO - Processing command: 'tell chat gpt kem chho'
+2025-07-22 13:45:04,931 - __main__ - INFO - CNS final response: 'None'
+2025-07-22 13:45:04,932 - __main__ - INFO - CNS final response: 'I'm not sure how to respond to that, Boss.'
+2025-07-22 13:45:42,090 - __main__ - INFO - CNS received text command: 'tell me everything about modi'
+2025-07-22 13:45:42,090 - brains.response_brain - INFO - Found partial conversational match: 'hi' in 'tell me everything about modi'
+2025-07-22 13:45:42,091 - __main__ - INFO - CNS final response: 'Hi Boss! Ready to get some work done?'
+2025-07-22 13:45:42,092 - __main__ - INFO - CNS final response: 'Hi Boss! Ready to get some work done?'
+2025-07-22 13:55:17,895 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 13:55:17,895 - root - INFO - Initializing brain modules...
+2025-07-22 13:55:17,896 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 13:55:17,896 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 13:55:17,899 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 13:55:17,899 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 13:55:17,899 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 13:55:17,899 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 13:55:17,899 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 13:55:17,899 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 13:55:17,899 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 13:55:17,899 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 13:55:17,899 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 13:55:17,900 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 13:55:17,900 - brains.automation_brain - INFO - AutomationBrain V.1.3 (Web Search Enhanced) initialized.
+2025-07-22 13:55:17,900 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 13:55:17,900 - root - INFO - All available brain modules initialized.
+2025-07-22 13:55:17,900 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 13:55:24,947 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 13:55:24,947 - brains.automation_brain - INFO - Processing command: 'who is modi'
+2025-07-22 13:55:24,948 - brains.automation_brain - INFO - ZIA searching and summarizing: modi
+2025-07-22 13:55:24,948 - ZIA.SecurityBrain - INFO - Security check requested for: google.com
+2025-07-22 13:55:24,948 - ZIA.SecurityBrain - INFO - Access ALLOWED - google.com is on trusted list
+2025-07-22 13:55:25,538 - __main__ - INFO - CNS final response: 'Boss, here's what I found about 'modi':
+
+Narendra Modi An Indian politician who has served as the prime minister of India since 2014.'
+2025-07-22 13:55:25,539 - __main__ - INFO - CNS final response: 'Boss, here's what I found about 'modi':
+
+Narendra Modi An Indian politician who has served as the prime minister of India since 2014.'
+2025-07-22 13:55:39,988 - __main__ - INFO - CNS received text command: 'tell me his wife name'
+2025-07-22 13:55:39,988 - brains.response_brain - INFO - Found partial conversational match: 'hi' in 'tell me his wife name'
+2025-07-22 13:55:39,989 - __main__ - INFO - CNS final response: 'Hi Boss! Ready to get some work done?'
+2025-07-22 13:55:39,989 - __main__ - INFO - CNS final response: 'Hi Boss! Ready to get some work done?'
+2025-07-22 15:06:01,268 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 15:06:01,276 - root - INFO - Initializing brain modules...
+2025-07-22 15:06:01,284 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 15:06:01,284 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 15:06:01,288 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 15:06:01,288 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 15:06:01,288 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 15:06:01,288 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 15:06:01,288 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 15:06:01,289 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 15:06:01,289 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 15:06:01,289 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 15:06:01,289 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 15:06:01,289 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 15:06:01,290 - brains.automation_brain - INFO - Enhanced memory integration active - all actions tracked with context
+2025-07-22 15:06:01,292 - brains.automation_brain - INFO - AutomationBrain V.1.4 (Enhanced Memory-Integrated Web Search) initialized.
+2025-07-22 15:06:01,292 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 15:06:01,292 - root - INFO - All available brain modules initialized.
+2025-07-22 15:06:01,292 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 15:06:07,784 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 15:06:07,785 - brains.automation_brain - INFO - Processing enhanced command: 'who is modi'
+2025-07-22 15:06:07,785 - brains.automation_brain - ERROR - Enhanced command execution error: 'AutomationBrain' object has no attribute '_extract_search_query'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 234, in execute_command
+    search_query = self._extract_search_query(command)
+AttributeError: 'AutomationBrain' object has no attribute '_extract_search_query'
+2025-07-22 15:06:07,789 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 15:06:07,789 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 15:06:26,622 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 15:06:26,622 - root - INFO - Initializing brain modules...
+2025-07-22 15:06:26,623 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 15:06:26,623 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 15:06:26,625 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 15:06:26,625 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 15:06:26,625 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 15:06:26,625 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 15:06:26,626 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 15:06:26,626 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 15:06:26,626 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 15:06:26,626 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 15:06:26,626 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 15:06:26,626 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 15:06:26,627 - brains.automation_brain - INFO - Enhanced memory integration active - all actions tracked with context
+2025-07-22 15:06:26,627 - brains.automation_brain - INFO - AutomationBrain V.1.4 (Enhanced Memory-Integrated Web Search) initialized.
+2025-07-22 15:06:26,627 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 15:06:26,627 - root - INFO - All available brain modules initialized.
+2025-07-22 15:06:26,629 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 15:06:33,379 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 15:06:33,380 - brains.automation_brain - INFO - Processing enhanced command: 'who is modi'
+2025-07-22 15:06:33,381 - brains.automation_brain - ERROR - Enhanced command execution error: 'AutomationBrain' object has no attribute '_extract_search_query'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 234, in execute_command
+    search_query = self._extract_search_query(command)
+AttributeError: 'AutomationBrain' object has no attribute '_extract_search_query'
+2025-07-22 15:06:33,384 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 15:06:33,384 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 15:09:01,381 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 15:09:01,381 - root - INFO - Initializing brain modules...
+2025-07-22 15:09:01,382 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 15:09:01,382 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 15:09:01,385 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 15:09:01,385 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 15:09:01,385 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 15:09:01,385 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 15:09:01,385 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 15:09:01,385 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 15:09:01,386 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 15:09:01,386 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 15:09:01,386 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 15:09:01,386 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 15:09:01,387 - brains.automation_brain - INFO - Enhanced memory integration active - all actions tracked with context
+2025-07-22 15:09:01,387 - brains.automation_brain - INFO - AutomationBrain V.1.4 (Enhanced Memory-Integrated Web Search) initialized.
+2025-07-22 15:09:01,387 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 15:09:01,387 - root - INFO - All available brain modules initialized.
+2025-07-22 15:09:01,387 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 15:09:07,330 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 15:09:07,330 - brains.automation_brain - INFO - Processing enhanced command: 'who is modi'
+2025-07-22 15:09:07,331 - brains.automation_brain - ERROR - Enhanced command execution error: 'AutomationBrain' object has no attribute '_extract_search_query'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 234, in execute_command
+    search_query = self._extract_search_query(command)
+AttributeError: 'AutomationBrain' object has no attribute '_extract_search_query'
+2025-07-22 15:09:07,334 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 15:09:07,334 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 18:16:18,786 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:16:18,793 - root - INFO - Initializing brain modules...
+2025-07-22 18:16:18,795 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:16:18,795 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:16:18,961 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:16:18,962 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:16:18,964 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:16:18,965 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:16:18,966 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:16:18,975 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:16:18,995 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:16:19,011 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:16:19,021 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:16:19,024 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:16:19,029 - brains.automation_brain - INFO - Enhanced memory integration active - all actions tracked with context
+2025-07-22 18:16:19,032 - brains.automation_brain - INFO - AutomationBrain V.1.4 (Enhanced Memory-Integrated Web Search) initialized.
+2025-07-22 18:16:19,037 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:16:19,045 - root - INFO - All available brain modules initialized.
+2025-07-22 18:16:19,049 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:16:28,695 - brains.memory_brain - ERROR - Failed to log action 'MEMORY_BRAIN.SHUTDOWN': name 'open' is not defined
+2025-07-22 18:16:55,954 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:16:55,954 - root - INFO - Initializing brain modules...
+2025-07-22 18:16:55,955 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:16:55,956 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:16:55,958 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:16:55,959 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:16:55,959 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:16:55,959 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:16:55,959 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:16:55,959 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:16:55,959 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:16:55,959 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:16:55,960 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:16:55,960 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:16:55,962 - brains.automation_brain - INFO - Enhanced memory integration active - all actions tracked with context
+2025-07-22 18:16:55,962 - brains.automation_brain - INFO - AutomationBrain V.1.4 (Enhanced Memory-Integrated Web Search) initialized.
+2025-07-22 18:16:55,962 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:16:55,962 - root - INFO - All available brain modules initialized.
+2025-07-22 18:16:55,962 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:17:05,265 - __main__ - INFO - CNS received text command: 'who is your boss'
+2025-07-22 18:17:05,265 - brains.automation_brain - INFO - Processing enhanced command: 'who is your boss'
+2025-07-22 18:17:05,267 - brains.automation_brain - ERROR - Enhanced command execution error: 'AutomationBrain' object has no attribute '_extract_search_query'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 234, in execute_command
+    search_query = self._extract_search_query(command)
+AttributeError: 'AutomationBrain' object has no attribute '_extract_search_query'
+2025-07-22 18:17:05,289 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 18:17:05,290 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 18:17:14,385 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 18:17:14,387 - brains.automation_brain - INFO - Processing enhanced command: 'who is modi'
+2025-07-22 18:17:14,388 - brains.automation_brain - ERROR - Enhanced command execution error: 'AutomationBrain' object has no attribute '_extract_search_query'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 234, in execute_command
+    search_query = self._extract_search_query(command)
+AttributeError: 'AutomationBrain' object has no attribute '_extract_search_query'
+2025-07-22 18:17:14,391 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 18:17:14,391 - __main__ - INFO - CNS final response: 'Boss, I encountered an enhanced error analysis: AttributeError. Let me try a different approach.'
+2025-07-22 18:21:11,681 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:21:11,683 - root - INFO - Initializing brain modules...
+2025-07-22 18:21:11,683 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:21:11,684 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:21:11,687 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:21:11,687 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:21:11,687 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:21:11,688 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:21:11,688 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:21:11,688 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:21:11,688 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:21:11,688 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:21:11,689 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:21:11,689 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:21:11,708 - brains.automation_brain - INFO - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 18:21:11,708 - brains.automation_brain - INFO - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 18:21:11,709 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:21:11,709 - root - INFO - All available brain modules initialized.
+2025-07-22 18:21:11,709 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:21:19,970 - __main__ - INFO - CNS received text command: 'who is modi'
+2025-07-22 18:21:19,971 - brains.automation_brain - INFO - Processing command #1: 'who is modi'
+2025-07-22 18:21:19,971 - brains.automation_brain - ERROR - Command execution error: 'AutomationBrain' object has no attribute '_analyze_command_context'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 357, in execute_command
+    "context": self._analyze_command_context(command)
+AttributeError: 'AutomationBrain' object has no attribute '_analyze_command_context'
+2025-07-22 18:21:19,975 - __main__ - INFO - CNS final response: 'Boss, I encountered an error: AttributeError. Let me try a different approach or check the logs for details.'
+2025-07-22 18:21:19,975 - __main__ - INFO - CNS final response: 'Boss, I encountered an error: AttributeError. Let me try a different approach or check the logs for details.'
+2025-07-22 18:43:36,982 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:43:36,984 - root - INFO - Initializing brain modules...
+2025-07-22 18:43:36,985 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:43:36,985 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:43:36,988 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:43:36,988 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:43:36,989 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:43:36,989 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:43:36,989 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:43:36,989 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:43:36,989 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:43:36,989 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:43:36,989 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:43:36,989 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:43:36,991 - brains.automation_brain - INFO - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 18:43:36,991 - brains.automation_brain - INFO - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 18:43:36,993 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:43:36,993 - root - INFO - All available brain modules initialized.
+2025-07-22 18:43:36,993 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:43:46,457 - __main__ - INFO - CNS received text command: 'show me funny video'
+2025-07-22 18:43:46,458 - brains.automation_brain - INFO - Processing command #1: 'show me funny video'
+2025-07-22 18:43:46,460 - brains.automation_brain - ERROR - Command execution error: 'AutomationBrain' object has no attribute '_is_memory_command'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 361, in execute_command
+    result = self._process_command_pipeline(command, command_lower)
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 389, in _process_command_pipeline
+    if self._is_memory_command(command):
+AttributeError: 'AutomationBrain' object has no attribute '_is_memory_command'
+2025-07-22 18:43:46,465 - __main__ - INFO - CNS final response: 'Boss, I encountered an error: AttributeError. Let me try a different approach or check the logs for details.'
+2025-07-22 18:45:41,006 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:45:41,007 - root - INFO - Initializing brain modules...
+2025-07-22 18:45:41,008 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:45:41,008 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:45:41,013 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:45:41,013 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:45:41,013 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:45:41,014 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:45:41,014 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:45:41,014 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:45:41,014 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:45:41,014 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:45:41,014 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:45:41,015 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:45:41,018 - brains.automation_brain - INFO - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 18:45:41,018 - brains.automation_brain - INFO - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 18:45:41,018 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:45:41,018 - root - INFO - All available brain modules initialized.
+2025-07-22 18:45:41,019 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:48:41,394 - __main__ - INFO - CNS received text command: '& C:/vita-x_v.0.1/VITA_X/venv/Scripts/python.exe c:/vita-x_v.0.1/VITA_X/brains/automation_brain.py'
+2025-07-22 18:48:41,394 - brains.automation_brain - INFO - Processing command #1: '& c:/vita-x_v.0.1/vita_x/venv/scripts/python.exe c:/vita-x_v.0.1/vita_x/brains/automation_brain.py'
+2025-07-22 18:48:41,396 - brains.automation_brain - ERROR - Command execution error: 'AutomationBrain' object has no attribute '_is_memory_command'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 361, in execute_command
+    result = self._process_command_pipeline(command, command_lower)
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 389, in _process_command_pipeline
+    if self._is_memory_command(command):
+AttributeError: 'AutomationBrain' object has no attribute '_is_memory_command'
+2025-07-22 18:48:41,438 - __main__ - INFO - CNS final response: 'Boss, I encountered an error: AttributeError. Let me try a different approach or check the logs for details.'
+2025-07-22 18:48:56,718 - root - INFO - ZIA-X Central Nervous System starting up...
+2025-07-22 18:48:56,718 - root - INFO - Initializing brain modules...
+2025-07-22 18:48:56,720 - brains.memory_brain - INFO - Encryption key loaded successfully from existing file
+2025-07-22 18:48:56,720 - brains.memory_brain - INFO - ZIA Memory Brain initialized successfully
+2025-07-22 18:48:56,723 - root - INFO - 💾 Memory Brain (Black Box) module loaded.
+2025-07-22 18:48:56,724 - brains.response_brain - INFO - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 18:48:56,724 - root - INFO - 💬 Response Brain module loaded.
+2025-07-22 18:48:56,724 - ZIA.SecurityBrain - INFO - Security Brain initialized - Guardian mode active
+2025-07-22 18:48:56,724 - ZIA.SecurityBrain - INFO - Loaded 4 trusted sites
+2025-07-22 18:48:56,724 - ZIA.SecurityBrain - INFO - Loaded 0 blocked sites
+2025-07-22 18:48:56,725 - ZIA.SecurityBrain - INFO - Loaded 0 one-time sessions
+2025-07-22 18:48:56,725 - root - INFO - 🛡️ Security Brain module loaded.
+2025-07-22 18:48:56,725 - brains.decision_brain - INFO - DecisionBrain initialized with knowledge base
+2025-07-22 18:48:56,725 - root - INFO - 🧠 Decision Brain (Mastermind) module loaded.
+2025-07-22 18:48:56,728 - brains.automation_brain - INFO - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 18:48:56,729 - brains.automation_brain - INFO - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 18:48:56,729 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-22 18:48:56,729 - root - INFO - All available brain modules initialized.
+2025-07-22 18:48:56,729 - root - INFO - ZIA-X CNS initialization complete.
+2025-07-22 18:49:10,878 - __main__ - INFO - CNS received text command: 'open youtube'
+2025-07-22 18:49:10,879 - brains.automation_brain - INFO - Processing command #1: 'open youtube'
+2025-07-22 18:49:10,880 - brains.automation_brain - ERROR - Command execution error: 'AutomationBrain' object has no attribute '_is_memory_command'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 361, in execute_command
+    result = self._process_command_pipeline(command, command_lower)
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 389, in _process_command_pipeline
+    if self._is_memory_command(command):
+AttributeError: 'AutomationBrain' object has no attribute '_is_memory_command'
+2025-07-22 18:49:10,885 - __main__ - INFO - CNS final response: 'Boss, I encountered an error: AttributeError. Let me try a different approach or check the logs for details.'

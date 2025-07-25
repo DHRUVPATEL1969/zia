@@ -1,0 +1,32 @@
+2025-07-22 21:32:49,590 - __main__ - INFO - [_setup_enhanced_logging:110] - Enhanced logging initialized - Log file: 📝 logs\zia_x_enhanced_20250722_213249.log
+2025-07-22 21:32:49,590 - root - INFO - [__init__:77] - ZIA-X Enhanced Central Nervous System starting up...
+2025-07-22 21:32:49,593 - root - INFO - [_initialize_enhanced_brains:149] - Initializing enhanced brain modules...
+2025-07-22 21:32:49,594 - brains.memory_brain - INFO - [_load_or_generate_key:116] - Encryption key loaded successfully from existing file
+2025-07-22 21:32:49,594 - brains.memory_brain - INFO - [__init__:71] - ZIA Memory Brain initialized successfully
+2025-07-22 21:32:49,601 - root - INFO - [_load_memory_brain:163] - 💾 Enhanced Memory Brain (Black Box) module loaded.
+2025-07-22 21:32:49,601 - ZIA.SecurityBrain - INFO - [__init__:50] - Security Brain initialized - Guardian mode active
+2025-07-22 21:32:49,601 - ZIA.SecurityBrain - INFO - [__init__:51] - Loaded 4 trusted sites
+2025-07-22 21:32:49,601 - ZIA.SecurityBrain - INFO - [__init__:52] - Loaded 0 blocked sites
+2025-07-22 21:32:49,601 - ZIA.SecurityBrain - INFO - [__init__:53] - Loaded 0 one-time sessions
+2025-07-22 21:32:49,601 - root - INFO - [_load_security_brain:171] - 🛡️ Security Brain module loaded.
+2025-07-22 21:32:49,602 - brains.decision_brain - INFO - [__init__:82] - Enhanced DecisionBrain V2.0 initialized successfully
+2025-07-22 21:32:49,602 - root - INFO - [_load_decision_brain:179] - 🧠 Enhanced Decision Brain V2.0 (Mastermind) module loaded.
+2025-07-22 21:32:49,603 - brains.automation_brain - INFO - [_setup_memory_integration:191] - Enhanced memory integration active - comprehensive tracking enabled
+2025-07-22 21:32:49,604 - brains.automation_brain - INFO - [__init__:85] - AutomationBrain V.1.5 (Production-Ready Enhanced) initialized successfully.
+2025-07-22 21:32:49,604 - root - INFO - [_load_automation_brain:187] - 🤖 Enhanced Automation Brain V1.5 module loaded.
+2025-07-22 21:32:49,604 - brains.response_brain - INFO - [__init__:88] - ResponseBrain V.0.3 initialized with 40 conversational responses.
+2025-07-22 21:32:49,604 - root - INFO - [_load_response_brain:195] - 💬 Response Brain module loaded.
+2025-07-22 21:32:49,605 - root - INFO - [_initialize_enhanced_brains:157] - All enhanced brain modules initialized successfully.
+2025-07-22 21:32:49,605 - __main__ - INFO - [_setup_brain_communication:204] - Brain communication established: MemoryBrain, DecisionBrain V2.0, AutomationBrain V1.5, SecurityBrain, ResponseBrain
+2025-07-22 21:32:49,607 - root - INFO - [__init__:91] - ZIA-X Enhanced CNS initialization complete.
+2025-07-22 21:32:59,275 - __main__ - INFO - [handle_command:215] - Enhanced CNS received text command: 'who is modi'
+2025-07-22 21:32:59,276 - brains.decision_brain - INFO - [make_decision:401] - Making enhanced decision for command: who is modi
+2025-07-22 21:32:59,282 - brains.automation_brain - INFO - [execute_command:246] - Processing command #1: 'who is modi'
+2025-07-22 21:32:59,284 - brains.automation_brain - ERROR - [execute_command:268] - Command execution error: 'AutomationBrain' object has no attribute '_is_memory_command'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 257, in execute_command
+    result = self._process_command_pipeline(command, command_lower)
+  File "c:\vita-x_v.0.1\VITA_X\brains\automation_brain.py", line 282, in _process_command_pipeline
+    if self._is_memory_command(command):
+AttributeError: 'AutomationBrain' object has no attribute '_is_memory_command'
+2025-07-22 21:32:59,285 - __main__ - INFO - [handle_command:242] - Enhanced CNS processed command in 0.01s via AutomationBrain

@@ -1,0 +1,31 @@
+{
+    "system": {
+        "user_name": "Boss",
+        "ai_name": "ZIA",
+        "log_level": "INFO"
+    },
+    "listening_brain": {
+        "enabled": false,
+        "vosk_model_path": "models/vosk-model-en-in-0.5",
+        "wake_words": ["zia", "computer"],
+        "command_timeout": 5,
+        "confidence_threshold": 0.85
+    },
+    "automation_brain": {
+        "enabled": true
+    },
+    "response_brain": {
+        "enabled": true
+    },
+    "security_brain": {
+        "enabled": true,
+        "trusted_sites": [
+            "google.com",
+            "youtube.com",
+            "wikipedia.org",
+            "github.com"
+        ],
+        "blocked_sites": [],
+        "one_time_sessions": []
+    }
+}

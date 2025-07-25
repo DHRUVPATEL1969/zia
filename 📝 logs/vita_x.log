@@ -1,0 +1,615 @@
+2025-07-17 04:20:47,713 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:20:47,714 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:20:47,714 - root - INFO - Initializing brain modules...
+2025-07-17 04:20:47,715 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:20:47,715 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:20:53,227 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:20:53,229 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:20:53,792 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:20:53,794 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:21:03,843 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:21:03,846 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:21:03,849 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:21:03,851 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:21:03,851 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:21:03,852 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:21:03,853 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:21:03,853 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:21:03,853 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:21:03,853 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:21:03,854 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:21:03,854 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:21:03,854 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:21:03,855 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:21:03,872 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:21:03,899 - brains.listening_brain - INFO - Available audio devices: 17
+2025-07-17 04:21:03,908 - brains.listening_brain - ERROR - Failed to initialize audio stream: No module named 'numpy'
+2025-07-17 04:21:03,908 - root - ERROR - Failed to load Listening Brain: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\vita-x_v.0.1\VITA_X\vita_x.py", line 151, in _load_listening_brain
+    self.listening_brain = ListeningBrain(cns=self, config=listening_config)
+  File "C:\vita-x_v.0.1\VITA_X\brains\listening_brain.py", line 85, in __init__
+    self._initialize_audio_stream()
+  File "C:\vita-x_v.0.1\VITA_X\brains\listening_brain.py", line 212, in _initialize_audio_stream
+    self.audio_stream = sd.InputStream(
+  File "C:\vita-x_v.0.1\VITA_X\venv\lib\site-packages\sounddevice.py", line 1440, in __init__
+    _StreamBase.__init__(self, kind='input', wrap_callback='array',
+  File "C:\vita-x_v.0.1\VITA_X\venv\lib\site-packages\sounddevice.py", line 780, in __init__
+    import numpy
+ModuleNotFoundError: No module named 'numpy'
+2025-07-17 04:21:03,922 - brains.listening_brain - INFO - Listening Brain is not running
+2025-07-17 04:21:03,922 - brains.listening_brain - INFO - 🧹 Cleaning up Multilingual Listening Brain resources...
+2025-07-17 04:21:03,923 - brains.listening_brain - INFO - 🧹 Multilingual Listening Brain cleanup completed
+2025-07-17 04:21:04,533 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:21:04,534 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:21:04,534 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:21:04,534 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:21:04,535 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:21:04,535 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:21:04,535 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:21:08,044 - root - INFO - 🔄 VITA-X CNS shutting down...
+2025-07-17 04:21:08,045 - root - INFO - ✅ VITA-X CNS shutdown complete.
+2025-07-17 04:22:17,174 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:22:17,175 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:22:17,175 - root - INFO - Initializing brain modules...
+2025-07-17 04:22:17,175 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:22:17,175 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:22:19,694 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:22:19,695 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:22:20,197 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:22:20,197 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:22:26,341 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:22:26,343 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:22:26,344 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:22:26,344 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:22:26,344 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:22:26,345 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:22:26,346 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:22:26,348 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:22:26,359 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:22:26,363 - brains.listening_brain - INFO - Available audio devices: 17
+2025-07-17 04:22:29,321 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:22:29,322 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:22:29,322 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:22:29,322 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:22:29,322 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:22:29,323 - root - ERROR - Failed to load Listening Brain: 'VitaCNS' object has no attribute '_threads'
+Traceback (most recent call last):
+  File "C:\vita-x_v.0.1\VITA_X\vita_x.py", line 153, in _load_listening_brain
+    self._threads.append(self.listening_brain._thread)
+AttributeError: 'VitaCNS' object has no attribute '_threads'
+2025-07-17 04:22:29,329 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:22:29,329 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:22:29,330 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:22:29,330 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:22:29,330 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:22:29,330 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:22:29,330 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:22:29,330 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:22:32,909 - root - INFO - 🔄 VITA-X CNS shutting down...
+2025-07-17 04:22:32,910 - brains.listening_brain - INFO - 🛑 Stopping Multilingual Listening Brain...
+2025-07-17 04:22:32,929 - brains.listening_brain - INFO - 🧹 Cleaning up Multilingual Listening Brain resources...
+2025-07-17 04:22:32,969 - brains.listening_brain - INFO - Audio stream closed
+2025-07-17 04:22:32,969 - brains.listening_brain - INFO - 🧹 Multilingual Listening Brain cleanup completed
+2025-07-17 04:22:32,970 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop ended
+2025-07-17 04:22:32,970 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain stopped successfully
+2025-07-17 04:22:32,970 - root - INFO - ✅ VITA-X CNS shutdown complete.
+2025-07-17 04:22:33,000 - brains.listening_brain - INFO - Listening Brain is not running
+2025-07-17 04:22:33,000 - brains.listening_brain - INFO - 🧹 Cleaning up Multilingual Listening Brain resources...
+2025-07-17 04:22:33,001 - brains.listening_brain - INFO - Audio stream closed
+2025-07-17 04:22:33,001 - brains.listening_brain - INFO - 🧹 Multilingual Listening Brain cleanup completed
+2025-07-17 04:26:04,611 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:26:04,612 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:26:04,612 - root - INFO - Initializing brain modules...
+2025-07-17 04:26:04,612 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:26:04,612 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:26:07,153 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:26:07,154 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:26:07,685 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:26:07,687 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:26:13,473 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:26:13,476 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:26:13,477 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:26:13,478 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:26:13,478 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:26:13,480 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:26:13,482 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:26:13,482 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:26:13,483 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:26:13,484 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:26:13,484 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:26:13,484 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:26:13,484 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:26:13,485 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:26:13,507 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:26:13,513 - brains.listening_brain - INFO - Available audio devices: 17
+2025-07-17 04:26:14,359 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:26:14,360 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:26:14,360 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:26:14,363 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:26:14,364 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:26:14,364 - root - ERROR - Failed to load Listening Brain: 'VitaCNS' object has no attribute '_threads'
+Traceback (most recent call last):
+  File "C:\vita-x_v.0.1\VITA_X\vita_x.py", line 153, in _load_listening_brain
+    self._threads.append(self.listening_brain._thread)
+AttributeError: 'VitaCNS' object has no attribute '_threads'
+2025-07-17 04:26:14,365 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:26:14,369 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:26:14,371 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:26:14,372 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:26:14,373 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:26:14,376 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:26:14,380 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:26:14,381 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:28:30,368 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:28:30,369 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:28:30,369 - root - INFO - Initializing brain modules...
+2025-07-17 04:28:30,369 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:28:30,370 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:28:32,926 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:28:32,926 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:28:33,460 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:28:33,461 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:28:40,237 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:28:40,242 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:28:40,242 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:28:40,242 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:28:40,242 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:28:40,242 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:28:40,244 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:28:40,244 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:28:40,244 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:28:40,244 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:28:40,245 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:28:40,245 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:28:40,245 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:28:40,245 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:28:40,253 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:28:40,256 - brains.listening_brain - INFO - Available audio devices: 17
+2025-07-17 04:28:40,794 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:28:40,794 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:28:40,794 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:28:40,795 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:28:40,795 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:28:40,795 - root - INFO - 🎧 Multilingual Listening Brain module started successfully.
+2025-07-17 04:28:40,796 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:28:40,796 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:28:40,796 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:28:40,796 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:28:40,796 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:28:40,796 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:28:40,796 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:28:40,797 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:28:47,414 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:28:47,414 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:28:47,414 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:28:52,474 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:28:53,524 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:28:53,524 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:28:53,524 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:28:58,565 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:29:04,888 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:29:04,889 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:29:04,889 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:29:09,992 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:29:16,495 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:29:16,496 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:29:16,496 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:29:21,576 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:29:26,726 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:29:26,727 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:29:26,727 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:29:31,763 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:29:35,214 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:29:35,215 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:29:35,215 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:29:40,276 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:43:56,380 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:43:56,382 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:43:56,382 - root - INFO - Initializing brain modules...
+2025-07-17 04:43:56,382 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:43:56,382 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:44:01,146 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:44:01,146 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:44:01,702 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:44:01,703 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:44:08,402 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:44:08,402 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:44:08,406 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:44:08,406 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:44:08,407 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:44:08,407 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:44:08,407 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:44:08,407 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:44:08,408 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:44:08,408 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:44:08,408 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:44:08,408 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:44:08,409 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:44:08,409 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:44:08,425 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:44:08,428 - brains.listening_brain - INFO - Available audio devices: 35
+2025-07-17 04:44:11,169 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:44:11,169 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:44:11,170 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:44:11,181 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:44:11,182 - root - INFO - 🎧 Multilingual Listening Brain module started successfully.
+2025-07-17 04:44:11,182 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:44:11,183 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:44:11,184 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:44:11,184 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:44:11,185 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:44:11,185 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:44:11,187 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:44:11,187 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:44:11,188 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:44:15,857 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:44:15,857 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:44:15,858 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:44:20,910 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:44:28,938 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:44:28,940 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:44:28,940 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:44:33,971 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:51:28,195 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:51:28,195 - brains.listening_brain - INFO - 🔊 Wake word detected in English (India)!
+2025-07-17 04:51:28,196 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:51:33,421 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:52:16,042 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:52:16,045 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:52:16,046 - root - INFO - Initializing brain modules...
+2025-07-17 04:52:16,046 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:52:16,046 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:52:19,074 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:52:19,075 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:52:20,043 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:52:20,045 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:52:34,325 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:52:34,327 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:52:34,327 - root - INFO - Initializing brain modules...
+2025-07-17 04:52:34,328 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:52:34,328 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:52:36,944 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:52:36,945 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:52:37,455 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:52:37,456 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:52:42,654 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:52:42,654 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:52:42,654 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:52:42,655 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:52:42,655 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:52:42,655 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:52:42,660 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:52:42,667 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:52:42,667 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:52:42,668 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:52:42,668 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:52:42,668 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:52:42,668 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:52:42,668 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:52:42,973 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:52:42,985 - brains.listening_brain - INFO - Available audio devices: 41
+2025-07-17 04:52:44,612 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:52:44,612 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:52:44,612 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:52:44,614 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:52:44,615 - root - INFO - 🎧 Multilingual Listening Brain module started successfully.
+2025-07-17 04:52:44,615 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:52:44,615 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:52:44,615 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:52:44,615 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:52:44,617 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:52:44,617 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:52:44,617 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:52:44,617 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:52:44,618 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:52:55,733 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:52:55,733 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:52:55,733 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:53:00,806 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:53:07,583 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:53:07,583 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:53:07,583 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:53:12,690 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:53:25,748 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:53:25,748 - brains.listening_brain - INFO - 🔊 Wake word detected in partial result (English (India))!
+2025-07-17 04:53:25,748 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:53:30,798 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:58:14,045 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 04:58:14,047 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 04:58:14,048 - root - INFO - Initializing brain modules...
+2025-07-17 04:58:14,048 - brains.listening_brain - INFO - 📚 Loading multilingual Vosk models...
+2025-07-17 04:58:14,048 - brains.listening_brain - INFO - Loading en-in model from models/vosk-model-en-in-0.5...
+2025-07-17 04:58:16,713 - brains.listening_brain - INFO - ✅ en-in model loaded successfully
+2025-07-17 04:58:16,713 - brains.listening_brain - INFO - Loading hi model from models/vosk-model-small-hi-0.22...
+2025-07-17 04:58:17,308 - brains.listening_brain - INFO - ✅ hi model loaded successfully
+2025-07-17 04:58:17,308 - brains.listening_brain - INFO - Loading gu model from models/vosk-model-gu-0.42...
+2025-07-17 04:58:24,598 - brains.listening_brain - INFO - ✅ gu model loaded successfully
+2025-07-17 04:58:24,604 - brains.listening_brain - INFO - 📚 Loaded 3 language models: ['en-in', 'hi', 'gu']
+2025-07-17 04:58:24,607 - brains.listening_brain - INFO - 🔊 Configuring multilingual wake words...
+2025-07-17 04:58:24,608 - brains.listening_brain - INFO - Wake word 'vita' -> en-in
+2025-07-17 04:58:24,608 - brains.listening_brain - INFO - Wake word 'computer' -> en-in
+2025-07-17 04:58:24,609 - brains.listening_brain - INFO - Wake word 'hello vita' -> en-in
+2025-07-17 04:58:24,609 - brains.listening_brain - INFO - Wake word 'वीटा' -> hi
+2025-07-17 04:58:24,609 - brains.listening_brain - INFO - Wake word 'नमस्ते' -> hi
+2025-07-17 04:58:24,611 - brains.listening_brain - INFO - Wake word 'सुनो' -> hi
+2025-07-17 04:58:24,611 - brains.listening_brain - INFO - Wake word 'વિટા' -> gu
+2025-07-17 04:58:24,611 - brains.listening_brain - INFO - Wake word 'નમસ્તે' -> gu
+2025-07-17 04:58:24,611 - brains.listening_brain - INFO - Wake word 'કેમ છો' -> gu
+2025-07-17 04:58:24,611 - brains.listening_brain - INFO - 🔊 Configured 9 wake words across 3 languages
+2025-07-17 04:58:24,612 - brains.listening_brain - INFO - Initializing wake word recognizer with en-in model...
+2025-07-17 04:58:24,628 - brains.listening_brain - INFO - ✅ Wake word recognizer initialized with grammar: ['vita', 'computer', 'hello vita', 'वीटा', 'नमस्ते', 'सुनो', 'વિટા', 'નમસ્તે', 'કેમ છો']
+2025-07-17 04:58:24,631 - brains.listening_brain - INFO - Available audio devices: 41
+2025-07-17 04:58:25,265 - brains.listening_brain - INFO - 🎤 Audio stream configured: 16000Hz, 1024 samples
+2025-07-17 04:58:25,265 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain initialized successfully
+2025-07-17 04:58:25,265 - brains.listening_brain - INFO - 🚀 Starting Multilingual Listening Brain thread...
+2025-07-17 04:58:25,269 - brains.listening_brain - INFO - ✅ Multilingual Listening Brain thread started successfully
+2025-07-17 04:58:25,270 - root - INFO - 🎧 Multilingual Listening Brain module started successfully.
+2025-07-17 04:58:25,270 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 04:58:25,270 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 04:58:25,272 - brains.listening_brain - INFO - 🌍 Multilingual Listening Brain main loop started
+2025-07-17 04:58:25,272 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 04:58:25,273 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 04:58:25,273 - root - INFO - All brain modules initialized successfully.
+2025-07-17 04:58:25,273 - brains.listening_brain - INFO - 🎤 Audio stream started - listening for multilingual wake words...
+2025-07-17 04:58:25,273 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 04:58:25,274 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 04:58:32,511 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:58:32,511 - brains.listening_brain - INFO - 🔊 Wake word detected in English (India)!
+2025-07-17 04:58:32,511 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:58:37,692 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 04:58:40,994 - brains.listening_brain - INFO - Partial wake word 'hello vita' detected for language: en-in
+2025-07-17 04:58:40,994 - brains.listening_brain - INFO - 🔊 Wake word detected in English (India)!
+2025-07-17 04:58:40,995 - brains.listening_brain - INFO - 👂 Listening for command in English (India)...
+2025-07-17 04:58:46,004 - brains.listening_brain - INFO - ⏱️ Command listening timeout in English (India) - no speech detected
+2025-07-17 16:12:42,580 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:12:42,593 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:12:42,594 - root - INFO - Initializing brain modules...
+2025-07-17 16:12:42,594 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:12:47,557 - brains.listening_brain - INFO - Vosk model and recognizer created successfully
+2025-07-17 16:12:47,563 - brains.listening_brain - INFO - Using audio device: Microphone Array (Realtek(R) Au
+2025-07-17 16:12:47,989 - brains.listening_brain - INFO - Audio stream setup complete
+2025-07-17 16:12:47,992 - brains.listening_brain - INFO - Recognizer configured for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:12:47,992 - brains.listening_brain - INFO - ListeningBrain initialized successfully
+2025-07-17 16:12:47,992 - brains.listening_brain - INFO - Starting ListeningBrain with wake word detection
+2025-07-17 16:12:47,997 - brains.listening_brain - INFO - ListeningBrain started - wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:12:47,997 - root - INFO - 🎧 Listening Brain module started successfully.
+2025-07-17 16:12:47,997 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:12:47,998 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:12:47,998 - brains.listening_brain - INFO - Starting ListeningBrain main loop (wake word detection mode)
+2025-07-17 16:12:47,998 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:12:47,999 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:12:47,999 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:12:47,999 - brains.listening_brain - INFO - Audio stream started - listening for wake words...
+2025-07-17 16:12:47,999 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:12:48,000 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:13:14,547 - root - INFO - 🔄 VITA-X CNS shutting down...
+2025-07-17 16:13:14,548 - brains.listening_brain - INFO - Stopping ListeningBrain
+2025-07-17 16:13:14,823 - brains.listening_brain - INFO - ListeningBrain main loop stopped
+2025-07-17 16:13:14,824 - brains.listening_brain - INFO - ListeningBrain stopped successfully
+2025-07-17 16:13:14,824 - root - INFO - ✅ VITA-X CNS shutdown complete.
+2025-07-17 16:13:25,490 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:13:25,490 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:13:25,490 - root - INFO - Initializing brain modules...
+2025-07-17 16:13:25,490 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:13:28,240 - brains.listening_brain - INFO - Vosk model and recognizer created successfully
+2025-07-17 16:13:28,240 - brains.listening_brain - INFO - Using audio device: Microphone Array (Realtek(R) Au
+2025-07-17 16:13:28,401 - brains.listening_brain - INFO - Audio stream setup complete
+2025-07-17 16:13:28,402 - brains.listening_brain - INFO - Recognizer configured for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:13:28,402 - brains.listening_brain - INFO - ListeningBrain initialized successfully
+2025-07-17 16:13:28,402 - brains.listening_brain - INFO - Starting ListeningBrain with wake word detection
+2025-07-17 16:13:28,402 - brains.listening_brain - INFO - Starting ListeningBrain main loop (wake word detection mode)
+2025-07-17 16:13:28,402 - brains.listening_brain - INFO - ListeningBrain started - wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:13:28,403 - brains.listening_brain - INFO - Audio stream started - listening for wake words...
+2025-07-17 16:13:28,403 - root - INFO - 🎧 Listening Brain module started successfully.
+2025-07-17 16:13:28,403 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:13:28,403 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:13:28,403 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:13:28,403 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:13:28,405 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:13:28,405 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:13:28,405 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:17:32,362 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:17:32,363 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:17:32,363 - root - INFO - Initializing brain modules...
+2025-07-17 16:17:32,363 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:17:37,554 - brains.listening_brain - INFO - Configuring for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:17:37,555 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:17:37,555 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:17:37,556 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:17:37,556 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:17:37,605 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:17:37,606 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:17:37,606 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:17:37,606 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:17:37,606 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:17:37,607 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:17:37,607 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:17:38,068 - brains.listening_brain - INFO - 🎤 Listening for wake word... Say one of: ['vita', 'computer', 'hello vita']
+2025-07-17 16:18:21,354 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-17 16:18:25,144 - brains.listening_brain - WARNING - Audio stream status: input overflow
+2025-07-17 16:18:37,431 - brains.listening_brain - INFO - Wake word detected in partial result: 'computer'
+2025-07-17 16:18:37,432 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 16:18:37,669 - brains.listening_brain - INFO - 🎧 Listening Brain thread stopped.
+2025-07-17 16:18:42,491 - brains.listening_brain - INFO - ⏱️ Command listening timeout.
+2025-07-17 16:18:42,750 - brains.listening_brain - INFO - Switching back to wake word mode.
+2025-07-17 16:19:09,287 - root - INFO - 🔄 VITA-X CNS shutting down...
+2025-07-17 16:19:09,288 - brains.listening_brain - INFO - 🛑 Stopping ListeningBrain...
+2025-07-17 16:19:09,288 - brains.listening_brain - INFO - ✅ ListeningBrain stopped.
+2025-07-17 16:19:09,288 - root - INFO - ✅ VITA-X CNS shutdown complete.
+2025-07-17 16:23:06,783 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:23:06,783 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:23:06,783 - root - INFO - Initializing brain modules...
+2025-07-17 16:23:06,784 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:23:09,328 - brains.listening_brain - INFO - Configuring for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:23:09,328 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:23:09,328 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:23:09,329 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:23:09,329 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:23:09,330 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:23:09,331 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:23:09,331 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:23:09,331 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:23:09,331 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:23:09,331 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:23:09,331 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:23:09,508 - brains.listening_brain - INFO - 🎤 Listening for wake word... Say one of: ['vita', 'computer', 'hello vita']
+2025-07-17 16:23:12,543 - brains.listening_brain - INFO - Wake word detected in partial result: 'computer'
+2025-07-17 16:23:12,544 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 16:23:12,784 - brains.listening_brain - INFO - 🎧 Listening Brain thread stopped.
+2025-07-17 16:23:16,621 - __main__ - INFO - CNS received command: 'vega'
+2025-07-17 16:23:16,854 - brains.listening_brain - INFO - Switching back to wake word mode.
+2025-07-17 16:23:54,917 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:23:54,919 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:23:54,919 - root - INFO - Initializing brain modules...
+2025-07-17 16:23:54,919 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:23:58,189 - brains.listening_brain - INFO - Configuring for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:23:58,189 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:23:58,189 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:23:58,190 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:23:58,190 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:23:58,237 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:23:58,237 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:23:58,238 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:23:58,238 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:23:58,238 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:23:58,238 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:23:58,238 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:23:58,411 - brains.listening_brain - INFO - 🎤 Listening for wake word... Say one of: ['vita', 'computer', 'hello vita']
+2025-07-17 16:24:05,969 - brains.listening_brain - INFO - Wake word detected in partial result: 'hello with the computer'
+2025-07-17 16:24:05,970 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 16:24:06,185 - brains.listening_brain - INFO - 🎧 Listening Brain thread stopped.
+2025-07-17 16:24:09,564 - __main__ - INFO - CNS received command: 'hello reader'
+2025-07-17 16:24:09,779 - brains.listening_brain - INFO - Switching back to wake word mode.
+2025-07-17 16:29:38,572 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:29:38,572 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:29:38,572 - root - INFO - Initializing brain modules...
+2025-07-17 16:29:38,572 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:29:41,273 - brains.listening_brain - INFO - Configuring for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:29:41,274 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:29:41,274 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:29:41,274 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:29:41,274 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:29:41,276 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:29:41,276 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:29:41,276 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:29:41,276 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:29:41,276 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:29:41,277 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:29:41,277 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:29:41,464 - brains.listening_brain - INFO - 🎤 Listening for wake word... Say one of: ['vita', 'computer', 'hello vita']
+2025-07-17 16:29:56,505 - brains.listening_brain - INFO - Wake word detected in final result: 'computer'
+2025-07-17 16:29:56,505 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 16:29:56,750 - brains.listening_brain - INFO - 🎧 Listening Brain thread stopped.
+2025-07-17 16:30:01,601 - brains.listening_brain - INFO - Command 'hello beta' recognized with confidence: 0.00
+2025-07-17 16:30:01,601 - brains.listening_brain - WARNING - Confidence below threshold. Ignoring command.
+2025-07-17 16:30:01,601 - brains.listening_brain - INFO - ⏱️ Command listening timeout.
+2025-07-17 16:30:01,850 - brains.listening_brain - INFO - Switching back to wake word mode.
+2025-07-17 16:33:07,711 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:33:07,712 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:33:07,712 - root - INFO - Initializing brain modules...
+2025-07-17 16:33:07,712 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:33:10,383 - brains.listening_brain - INFO - Configuring for wake words: ['vita', 'computer', 'hello vita']
+2025-07-17 16:33:10,384 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:33:10,384 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:33:10,384 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:33:10,384 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:33:10,386 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:33:10,386 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:33:10,386 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:33:10,387 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:33:10,387 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:33:10,388 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:33:10,388 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:33:10,550 - brains.listening_brain - INFO - 🎤 Listening for wake word... Say one of: ['vita', 'computer', 'hello vita']
+2025-07-17 16:33:25,340 - brains.listening_brain - INFO - Wake word detected in final result: 'computer'
+2025-07-17 16:33:25,341 - brains.listening_brain - INFO - 👂 Switching to command mode...
+2025-07-17 16:33:25,576 - brains.listening_brain - INFO - 🎧 Listening Brain thread stopped.
+2025-07-17 16:33:29,931 - brains.listening_brain - INFO - Command 'hello reader' recognized with confidence: 0.00
+2025-07-17 16:33:29,933 - brains.listening_brain - WARNING - Confidence below threshold. Ignoring command.
+2025-07-17 16:33:30,382 - brains.listening_brain - INFO - ⏱️ Command listening timeout.
+2025-07-17 16:33:30,654 - brains.listening_brain - INFO - Switching back to wake word mode.
+2025-07-17 16:34:20,332 - root - INFO - 🔄 VITA-X CNS shutting down...
+2025-07-17 16:34:20,335 - brains.listening_brain - INFO - 🛑 Stopping ListeningBrain...
+2025-07-17 16:34:20,335 - brains.listening_brain - INFO - ✅ ListeningBrain stopped.
+2025-07-17 16:34:20,335 - root - INFO - ✅ VITA-X CNS shutdown complete.
+2025-07-17 16:34:57,144 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 16:34:57,145 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 16:34:57,145 - root - INFO - Initializing brain modules...
+2025-07-17 16:34:57,145 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 16:34:59,640 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['vita', 'computer', 'hello vita']
+2025-07-17 16:34:59,641 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 16:34:59,641 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 16:34:59,642 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 16:34:59,642 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 16:34:59,644 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 16:34:59,644 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 16:34:59,644 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 16:34:59,644 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 16:34:59,644 - root - INFO - All brain modules initialized successfully.
+2025-07-17 16:34:59,644 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 16:34:59,645 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 16:34:59,843 - brains.listening_brain - INFO - 🎤 VITA is now listening...
+2025-07-17 16:35:45,875 - brains.listening_brain - INFO - 🔊 Wake word detected: 'computer'
+2025-07-17 16:35:45,876 - brains.listening_brain - INFO - Configuring for COMMAND mode.
+2025-07-17 16:35:48,156 - brains.listening_brain - INFO - Attempting to process command: 'rita'
+2025-07-17 16:35:48,174 - brains.listening_brain - INFO - Command 'rita' recognized with confidence: 0.00
+2025-07-17 16:35:48,174 - brains.listening_brain - WARNING - Confidence below threshold. Ignoring command.
+2025-07-17 16:35:48,175 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['vita', 'computer', 'hello vita']
+2025-07-17 19:03:53,173 - root - INFO - VITA-X Central Nervous System starting up...
+2025-07-17 19:03:53,174 - root - INFO - Configuration loaded from ⚙️ config\settings.json
+2025-07-17 19:03:53,176 - root - INFO - Initializing brain modules...
+2025-07-17 19:03:53,176 - brains.listening_brain - INFO - Loading Vosk model from: models/vosk-model-en-in-0.5
+2025-07-17 19:03:58,067 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['vita', 'computer', 'hello vita']
+2025-07-17 19:03:58,067 - brains.listening_brain - INFO - Vosk setup complete.
+2025-07-17 19:03:58,067 - brains.listening_brain - INFO - 🚀 Starting ListeningBrain...
+2025-07-17 19:03:58,067 - brains.listening_brain - INFO - 🎧 Listening Brain thread started.
+2025-07-17 19:03:58,067 - root - ERROR - Failed to load Listening Brain: 'ListeningBrain' object has no attribute 'listening_thread'
+Traceback (most recent call last):
+  File "c:\vita-x_v.0.1\VITA_X\vita_x.py", line 148, in _load_listening_brain
+    self._threads.append(self.listening_brain.listening_thread) # Corrected attribute name
+AttributeError: 'ListeningBrain' object has no attribute 'listening_thread'
+2025-07-17 19:03:58,070 - root - INFO - 🤖 Automation Brain module loaded.
+2025-07-17 19:03:58,070 - root - INFO - 🔐 Security Brain module loaded.
+2025-07-17 19:03:58,070 - root - INFO - 🧠 Memory Brain module loaded.
+2025-07-17 19:03:58,070 - root - INFO - 🧬 Self-Modifying Brain module loaded.
+2025-07-17 19:03:58,071 - root - INFO - All brain modules initialized successfully.
+2025-07-17 19:03:58,071 - root - INFO - VITA-X CNS initialization complete.
+2025-07-17 19:03:58,071 - root - INFO - 🚀 VITA-X CNS main loop starting...
+2025-07-17 19:03:58,269 - brains.listening_brain - INFO - 🎤 VITA is now listening...
+2025-07-17 19:04:08,805 - brains.listening_brain - INFO - 🔊 Wake word detected: 'computer'
+2025-07-17 19:04:08,806 - brains.listening_brain - INFO - Configuring for COMMAND mode.
+2025-07-17 19:04:11,563 - brains.listening_brain - INFO - Attempting to process command: 'conquer death'
+2025-07-17 19:04:11,564 - brains.listening_brain - INFO - Command 'conquer death' recognized with confidence: 0.00
+2025-07-17 19:04:11,564 - brains.listening_brain - WARNING - Confidence below threshold. Ignoring command.
+2025-07-17 19:04:11,564 - brains.listening_brain - INFO - Configuring for WAKE WORD mode. Listening for: ['vita', 'computer', 'hello vita']
